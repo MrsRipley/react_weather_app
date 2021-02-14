@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by McKenna Ripley and is{" "}
           <a href="https://heuristic-cori-0dbca2.netlify.app" target="_blank">
