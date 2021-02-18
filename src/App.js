@@ -9,9 +9,23 @@ export default function App() {
         <Weather defaultCity="New York" />
         <footer>
           This project was coded by McKenna Ripley and is{" "}
-          <a href="https://heuristic-cori-0dbca2.netlify.app" target="_blank">
+          <a
+            href="https://github.com/MrsRipley/react_weather_app"
+            target="_blank"
+          >
             open-sourced on Github
-          </a>
+          </a>{" "}
+          <br></br>
+          <span>
+            Photo by{" "}
+            <a href="https://unsplash.com/@krisroller?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+              Kristopher Roller
+            </a>{" "}
+            on{" "}
+            <a href="https://unsplash.com/s/photos/sky?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+              Unsplash
+            </a>
+          </span>
         </footer>
       </div>
     </div>
