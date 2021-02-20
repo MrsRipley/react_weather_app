@@ -1,7 +1,8 @@
 .WeatherForecast {
   color: white;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
+  padding: 0;
 }
 .WeatherForecast canvas {
   display: block;

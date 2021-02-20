@@ -1,6 +1,7 @@
 .App {
-  background: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=scale&w=900&q=80");
+  background: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=80");
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
@@ -12,4 +13,7 @@
   font-size: 11px;
   margin: 10px 0;
   color: white;
+}
+.App a {
+  color: #fe8761;
 }

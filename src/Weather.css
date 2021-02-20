@@ -1,9 +1,10 @@
 .Weather {
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
-  padding: 16px;
+  padding: 20px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
+  max-height: 400px;
 }
 
 .Weather h1 {
@@ -11,7 +12,7 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
-  color: #65426a;
+  color: #fd2eb3;
 }
 
 .Weather ul {
@@ -26,15 +27,12 @@
   list-style: none;
 }
 
-.Weather h1 {
-  color: #f39233;
-}
 .Weather {
   color: white;
 }
 .Weather .temperature {
   font-weight: bold;
-  color: #f39233;
+  color: #fd2eb3;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -47,7 +45,7 @@
 }
 
 .Weather .unit {
-  color: #f39233;
+  color: #fd2eb3;
   font-size: 16px;
   font-weight: 400;
   position: relative;
@@ -55,7 +53,7 @@
   top: -34px;
 }
 .btn.btn-primary {
-  background-color: teal;
+  background-color: #4cd3c2;
   border: none;
 }
 .Weather.form-control {
